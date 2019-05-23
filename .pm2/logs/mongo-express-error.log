@@ -1,0 +1,166 @@
+[31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mUnable to load config.js![39m
+[31mError is:[39m
+[31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+unable to list databases
+{ MongoError: command listDatabases requires authentication
+    at Function.MongoError.create (/root/node_modules/mongo-express/node_modules/mongodb-core/lib/error.js:31:11)
+    at /root/node_modules/mongo-express/node_modules/mongodb-core/lib/connection/pool.js:483:72
+    at authenticateStragglers (/root/node_modules/mongo-express/node_modules/mongodb-core/lib/connection/pool.js:429:16)
+    at Connection.messageHandler (/root/node_modules/mongo-express/node_modules/mongodb-core/lib/connection/pool.js:463:5)
+    at Socket.<anonymous> (/root/node_modules/mongo-express/node_modules/mongodb-core/lib/connection/connection.js:319:22)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+  name: 'MongoError',
+  message: 'command listDatabases requires authentication',
+  ok: 0,
+  errmsg: 'command listDatabases requires authentication',
+  code: 13,
+  codeName: 'Unauthorized' }
+[31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[31mServer is open to allow connections from anyone (0.0.0.0)[39m
+[31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[31mServer is open to allow connections from anyone (0.0.0.0)[39m
+[31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[31mServer is open to allow connections from anyone (0.0.0.0)[39m
+[31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+evalmachine.<anonymous>:4
+        "tags": ["홍대맛집":2,"칵테일":1,"lounge":1,"루프탑":1,"서울":1,"촬영":1,"합정맛집":1,"1987rooftoplounge":1,"selfie":1,"일상":1,"홍대":1,"강남맛집":1,"야경":1,"대관":1,"여름":1,"연남동카페":1,"라운지":1,"맛집":1,"rooftop","1987루프탑라운지홍대":1,"브런치":2,"1987루프탑라운지":1,"논현":1,"1987":1,"JMT":1,"데이트코스":1,"분위기":1,"bar":1,"서울맛집":1,"홍대고기맛집":1,"전참시":1,"수제버거":1,"식사":1],
+                       ^
+
+SyntaxError: Unexpected token :
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInNewContext (vm.js:319:10)
+    at Object.exports.toBSON (/root/node_modules/mongo-express/lib/bson.js:60:6)
+    at exp.checkValid (/root/node_modules/mongo-express/lib/routes/document.js:30:12)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+    at mongoMiddleware (/root/node_modules/mongo-express/lib/router.js:285:5)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+evalmachine.<anonymous>:4
+        "tags": ["홍대맛집":2,
+                       ^
+
+SyntaxError: Unexpected token :
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInNewContext (vm.js:319:10)
+    at Object.exports.toBSON (/root/node_modules/mongo-express/lib/bson.js:60:6)
+    at exp.checkValid (/root/node_modules/mongo-express/lib/routes/document.js:30:12)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+    at mongoMiddleware (/root/node_modules/mongo-express/lib/router.js:285:5)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+evalmachine.<anonymous>:4
+        "tags": ["홍대맛집":2,
+                       ^
+
+SyntaxError: Unexpected token :
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInNewContext (vm.js:319:10)
+    at Object.exports.toBSON (/root/node_modules/mongo-express/lib/bson.js:60:6)
+    at exp.checkValid (/root/node_modules/mongo-express/lib/routes/document.js:30:12)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+    at mongoMiddleware (/root/node_modules/mongo-express/lib/router.js:285:5)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+evalmachine.<anonymous>:4
+        "tags": ["홍대맛집":2,
+                       ^
+
+SyntaxError: Unexpected token :
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInNewContext (vm.js:319:10)
+    at Object.exports.toBSON (/root/node_modules/mongo-express/lib/bson.js:60:6)
+    at exp.checkValid (/root/node_modules/mongo-express/lib/routes/document.js:30:12)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+    at mongoMiddleware (/root/node_modules/mongo-express/lib/router.js:285:5)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+evalmachine.<anonymous>:4
+        "tags": ["홍대맛집":2,
+                       ^
+
+SyntaxError: Unexpected token :
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInNewContext (vm.js:319:10)
+    at Object.exports.toBSON (/root/node_modules/mongo-express/lib/bson.js:60:6)
+    at exp.checkValid (/root/node_modules/mongo-express/lib/routes/document.js:30:12)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+    at mongoMiddleware (/root/node_modules/mongo-express/lib/router.js:285:5)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+evalmachine.<anonymous>:4
+        "tags": ["홍대맛집":2,
+                       ^
+
+SyntaxError: Unexpected token :
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInNewContext (vm.js:319:10)
+    at Object.exports.toBSON (/root/node_modules/mongo-express/lib/bson.js:60:6)
+    at exp.checkValid (/root/node_modules/mongo-express/lib/routes/document.js:30:12)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+    at mongoMiddleware (/root/node_modules/mongo-express/lib/router.js:285:5)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+evalmachine.<anonymous>:18
+    "location": {
+    ^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInNewContext (vm.js:319:10)
+    at Object.exports.toBSON (/root/node_modules/mongo-express/lib/bson.js:60:6)
+    at exp.checkValid (/root/node_modules/mongo-express/lib/routes/document.js:30:12)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
+    at mongoMiddleware (/root/node_modules/mongo-express/lib/router.js:285:5)
+    at Layer.handle [as handle_request] (/root/node_modules/mongo-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/node_modules/mongo-express/node_modules/express/lib/router/route.js:137:13)
